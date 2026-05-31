@@ -1,3 +1,2 @@
-SELECT *
-FROM aset_inventaris
-ORDER BY nama_aset ASC;
+SELECT COUNT(*) AS jumlah_aset
+FROM aset_inventaris;
