@@ -1,2 +1,2 @@
-SELECT MAX(nominal_tagihan)
+SELECT MIN(nominal_tagihan)
 FROM pengeluaran_operasional;
