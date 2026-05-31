@@ -1,2 +1,2 @@
-SELECT SUM(total_pembayaran) AS total_pendapatan
-FROM transaksi;
+SELECT SUM(nominal_tagihan) AS total_pengeluaran
+FROM pengeluaran_operasional;
