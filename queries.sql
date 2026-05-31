@@ -1,2 +1,2 @@
-DELETE FROM aset_inventaris
-WHERE kode_aset = 'KSR015';
+SELECT COUNT(*) AS jumlah_aset
+FROM aset_inventaris;
