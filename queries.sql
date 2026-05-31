@@ -1,2 +1,1 @@
-SELECT MIN(nominal_tagihan)
-FROM pengeluaran_operasional;
+SELECT * FROM `pengeluaran_operasional` WHERE 1
