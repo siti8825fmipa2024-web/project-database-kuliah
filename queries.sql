@@ -1,4 +1,4 @@
-SELECT jenis_tagihan,
-SUM(nominal_tagihan) AS total_pengeluaran
+SELECT MONTH(Tanggal_catat) AS Bulan,
+SUM(Nominal_tagihan) AS total_pengeluaran
 FROM pengeluaran_operasional
-GROUP BY Jenis_tagihan
+GROUP BY MONTH(Tanggal_catat);
